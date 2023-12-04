@@ -1,1 +1,3 @@
-# final_report
+# Nasdaq Closing Cross Predictive Analytics-Regression Problem
+
+The project aims to predict the closing price movements of numerous NASDAQ-listed stocks, using the Nasdaq Closing Cross auction data in the last 10 minutes. The metric used to evaluate five models’ performance is RMSE since RMSE is highly sensitive to large errors, which is crucial in this regression problem where large prediction errors can have significant consequences.In this time-series problem, uncertainties from splitting and non-deterministic models were addressed by performing Expanding window method. Models are fitted using GridSearchCV and their performance are assessed by calculating RMSE on the test set for each window.Finally, the best model along with its validation and test scores are recorded in a list.
